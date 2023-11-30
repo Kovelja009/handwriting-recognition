@@ -1,6 +1,39 @@
 # Deciphering Handwritten Sentences in Images
 
 <br>
+
+# Table of Contents
+
+- [Deciphering Handwritten Sentences in Images](#deciphering-handwritten-sentences-in-images)
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+    - [Info](#info)
+    - [Characteristics](#characteristics)
+- [Data analysis](#data-analysis)
+    - [Words per line statistics](#words-per-line-statistics)
+    - [Words length statistics](#words-length-statistics)
+    - [Most and least frequent words](#most-and-least-frequent-words)
+    - [Most and least frequent word pairs](#most-and-least-frequent-word-pairs)
+    - [Characters frequency](#characters-frequency)
+    - [Frequency of the character pairs](#frequency-of-the-character-pairs)
+- [Model Zoo](#model-zoo)
+    - [Combination of CNN (encoder) and RNN (decoder)](#combination-of-cnn-encoder-and-rnn-decoder)
+  - [Combination of the two transformers (one is encoder and one decoder)](#combination-of-the-two-transformers-one-is-encoder-and-one-decoder)
+  - [`D`ecoupled `A`ttention `N`etwork (CNN + CAM feed into RNN)](#decoupled-attention-network-cnn--cam-feed-into-rnn)
+- [Training](#training)
+    - [`CER` and `WER`](#cer-and-wer)
+    - [`CER` (`C`haracter `E`rror `R`ate):](#cer-character-error-rate)
+    - [`WER` (`W`ord `E`rror `R`ate)](#wer-word-error-rate)
+    - [Training of **CNN-RNN** with the `CTC` shortcut](#training-of-cnn-rnn-with-the-ctc-shortcut)
+    - [Training of **CNN-RNN** without the `CTC` shortcut](#training-of-cnn-rnn-without-the-ctc-shortcut)
+    - [Training of **TrOCR** transformer based network](#training-of-trocr-transformer-based-network)
+- [Evaluation](#evaluation)
+  - [Training set](#training-set)
+  - [Test set](#test-set)
+- [Conclusion](#conclusion)
+
+
 <br>
 
 
@@ -384,3 +417,135 @@ Because this model consists of two large pretrained transformers (`BEiT` and `Ro
     <td><img src="./training_session/TrOCR/Validation WER_white.svg" alt="ctc" width="500"> <center>WER score</center></td>
   </tr>
 <table>
+
+# Evaluation
+## Training set
+
+As we can see from the tables bellow, first two models (**CNN-RNN**) who were trained from 
+scratch managed to learn to predict text based on image in all *3* instances. **TrOCR** wasn't
+that good even on the train set, but it can be backed by the fact that we trained it only for
+*5* epochs, and training dataset was ~3 times smaller that the one used for **CNN-RNN** networks.
+
+It's interesting that **TrOCR**'s errors consistently resulted in valid words rather than random characters. This aligns with its utilization of a pre-trained transformer language model. This behavior demonstrates the strength of the model, as its mistakes align with existing words, indicating its adherence to linguistic patterns learned during pre-training. It's common for language models to 'hallucinate' or generate sensible, yet incorrect, outputs based on learned linguistic patterns. This tendency towards valid word errors underlines the model's proficiency in generating contextually relevant outputs, even when incorrect.
+ 
+ <br>
+
+<img src="./info/train_1.png" alt="ctc" width="500">
+
+| Model | prediction |
+|---------------|---------|
+| **CNN-RNN** with the `CTC` shortcut | A MOVE to stop Mr. Gaitskell from |
+| **CNN-RNN** without the `CTC` shortcut | A MOVE to stop Mr. Gaitskell from |
+| Ground Truth | A MOVE to stop Mr. Gaitskell from |
+
+<br>
+
+<img src="./info/train_2.png" alt="ctc" width="500">
+
+
+| Model | prediction |
+|---------------|---------|
+| **CNN-RNN** with the `CTC` shortcut | nominating any more Labour life Peers |
+| **CNN-RNN** without the `CTC` shortcut | nominating any more Labour life Peers |
+| Ground Truth | nominating any more Labour life Peers |
+
+<br>
+
+<img src="./info/train_3.png" alt="ctc" width="500">
+
+
+| Model | prediction |
+|---------------|---------|
+| **CNN-RNN** with the `CTC` shortcut | is to be made at a meeting of Labour |
+| **CNN-RNN** without the `CTC` shortcut | is to be made at a meeting of Labour |
+| **TrOCR**| is be made at a meeting of Labour |
+| Ground Truth | is to be made at a meeting of Labour |
+
+<br>
+
+<img src="./info/train_two.png" alt="ctc" width="500">
+
+| Model | prediction |
+|---------------|---------|
+| **TrOCR**| and he is to be backed by Mr. Will |
+| Ground Truth | and he is to be backed by Mr. Will |
+
+<br>
+
+<img src="./info/train_three.png" alt="ctc" width="500">
+
+| Model | prediction |
+|---------------|---------|
+| **TrOCR**| any were Labour life her is to be a week at a |
+| Ground Truth | any more Labour life Peers is to be made at a |
+
+<br>
+
+---
+
+## Test set
+
+As expected, all three models exhibit decreased performance on the test set. However, it's noteworthy that **TrOCR**, when making mistakes, consistently outputs valid words, albeit in the wrong context."
+
+<br>
+
+<img src="./info/test_1.png" alt="ctc" width="500">
+
+| Model | prediction |
+|---------------|---------|
+| **CNN-RNN** with the `CTC` shortcut | Become a successwill a dise and hey presld ! You're a slari. Raly singswith |
+| **CNN-RNN** without the `CTC` shortcut | Become a suceswith a dise and hey pres . You're a star. . Ralysmg with |
+| Ground Truth | Become a success with a disc and hey presto ! You're a star ... . Rolly sings with |
+
+<br>
+
+<img src="./info/test_2.png" alt="ctc" width="500">
+
+| Model | prediction |
+|---------------|---------|
+| **CNN-RNN** with the `CTC` shortcut | assurechess " Della Bell Hare " ( Partlpton ) a Ively song that hronges tempo midmay . |
+| **CNN-RNN** without the `CTC` shortcut | assurethess " Belle Bela tane " ( Parlophane ) a Wvely song thal chonges tempo mitway . |
+| **TrOCR**| workers'But " that " ( One " Company's baby today today today, but they temporary. |
+| Ground Truth | assuredness " Bella Bella Marie " ( Parlophone ) , a lively song that changes tempo mid-way . |
+
+<br>
+
+<img src="./info/test_3.png" alt="ctc" width="500">
+
+| Model | prediction |
+|---------------|---------|
+| **CNN-RNN** with the `CTC` shortcut | I dot thinn he cull slorm the charls witl this on , balils a good slark . |
+| **CNN-RNN** without the `CTC` shortcut | I donit thinw he will slorm the charls wilth his on , pal i t's a good start . |
+| Ground Truth | I don't think he will storm the charts with this one , but it's a good start . |
+
+<br>
+
+<img src="./info/test_two.png" alt="ctc" width="500">
+
+| Model | prediction |
+|---------------|---------|
+| **TrOCR**| He also struck a couples. has been to bea |
+| Ground Truth | He is also a director of a couple of garages. And he finds time as well to be a lyric |
+
+<br>
+
+<img src="./info/test_three.png" alt="ctc" width="500">
+
+| Model | prediction |
+|---------------|---------|
+| **TrOCR**| the " September here ', he is " big subjected who was 1959. |
+| Ground Truth | My September Love, " the big David Whitfield hit of 1956. |
+
+<br>
+
+---
+
+# Conclusion
+
+In this report, we tackled the challenge of deciphering handwritten sentences in images using machine learning. Analysis of the [IAM Handwriting Database](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database) unveiled linguistic nuances, from common words to character frequencies.
+
+We explored diverse network architectures, each offering unique insights. The **CNN-RNN** combo excelled consistently in learning to predict text. **TrOCR**, despite a smaller dataset, generated valid words, albeit in incorrect contexts, showcasing typical language model behavior.
+
+During evaluation, all models showed decreased performance on the test set. However, **TrOCR**'s ability to consistently output valid words, even when wrong, highlights the strength of language models.
+
+In conclusion, this study not only revealed dataset characteristics but also demonstrated language models' capability to generate contextually relevant outputs, even in error.
