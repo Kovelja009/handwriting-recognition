@@ -16,7 +16,7 @@ from data.iamdataset import IAMDataset
 
 from cnn_rnn_config import *
 
-from models import CNN_RNN
+from cnn_rnn_models import CNN_RNN
 
 from data.auxilary_functions import affine_transformation
 
@@ -46,7 +46,7 @@ parser.add_argument('--scheduler', action='store', type=str, default='mstep')
 parser.add_argument('--remove_spaces', action='store_true')
 parser.add_argument('--resize', action='store_true')
 parser.add_argument('--head_layers', action='store', type=int, default=3)
-parser.add_argument('--head_type', action='store', type=str, default='both')
+parser.add_argument('--head_type', action='store', type=str, default='rnn')
 
 args = parser.parse_args()
 
@@ -97,7 +97,7 @@ if args.head_layers > 0:
 head_type = args.head_type
 
 if load_model:
-    net = torch.load(save_path + 'best.pth')
+    net = torch.load(save_path + 'best_rnn_head.pth')
 else:
     net = CNN_RNN(cnn_cfg, head_cfg, len(classes), head=head_type, flattening=flattening, stn=stn)
 net.cuda(args.gpu_id)
@@ -336,17 +336,15 @@ for epoch in range(1, max_epochs + 1):
         if head_type=="both":
             if val_set is not None:
                 test_both(epoch, 'val')
-            # test_both(epoch, 'test')
         else:
             if val_set is not None:
                 test(epoch, 'val')
-            # test(epoch, 'test')
 
     if cum_loss < best_loss:
         best_loss = cum_loss
         early_stop_counter = 0
         logger.info('Saving net after %d epochs', epoch)
-        torch.save(net.cpu(), save_path + 'best.pth')
+        torch.save(net.cpu(), save_path + 'best_rnn_head.pth')
         net.cuda(args.gpu_id)       
     else:
         early_stop_counter += 1

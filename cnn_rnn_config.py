@@ -9,7 +9,7 @@ cnn_cfg = [(2, 64), 'M', (4, 128), 'M', (4, 256)]
 
 head_cfg = (256, 3)  # (hidden , num_layers)
 
-head_type = 'both'
+head_type = 'rnn'
 
 flattening = 'maxpool'
 fixed_size = (4 * 32,  4*  256)
@@ -23,5 +23,5 @@ max_epochs = 140
 batch_size = 10
 early_stopping = 3
 
-save_path = './saved_models/'
+save_path = './saved_models/cnn_rnn/'
 load_model = False

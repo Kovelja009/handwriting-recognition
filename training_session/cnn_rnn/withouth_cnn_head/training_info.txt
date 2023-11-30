@@ -1,0 +1,655 @@
+100%|███████████████████████████████████████████████████████████████| 6482/6482 [00:00<00:00, 1024512.14it/s]
+# training lines 6482
+imgs: [0/976 (0%)]
+100%|██████████████████████████████████████████████████████████████████| 976/976 [00:00<00:00, 989041.00it/s]
+# validation lines 976
+imgs: [0/2915 (0%)]
+imgs: [1000/2915 (34%)]
+imgs: [2000/2915 (69%)]
+100%|███████████████████████████████████████████████████████████████| 2915/2915 [00:00<00:00, 1051461.66it/s]
+# testing lines 2915
+[2023-11-30 00:59:07, INFO, CNN_RNN-Experiment::train] Preparing Net...
+Using: NVIDIA GeForce GTX 1650 Ti with Max-Q Design
+[2023-11-30 00:59:07, INFO, CNN_RNN-Experiment::train] Training:
+[2023-11-30 01:00:03, INFO, CNN_RNN-Experiment::train] Epoch: 1, Iteration: 100, train loss-> 150.869159
+orig::  left behind , isn't it ? Very exasperating for one and all . " 
+gdec:: 
+[2023-11-30 01:00:54, INFO, CNN_RNN-Experiment::train] Epoch: 1, Iteration: 200, train loss-> 140.083295
+orig::  to have been guests at yesterday's 
+gdec::   
+[2023-11-30 01:01:46, INFO, CNN_RNN-Experiment::train] Epoch: 1, Iteration: 300, train loss-> 133.624597
+orig::  recorder swung gently through 8.0 , 7.0 , 6.0 
+gdec::             
+[2023-11-30 01:02:37, INFO, CNN_RNN-Experiment::train] Epoch: 1, Iteration: 400, train loss-> 126.762970
+orig::  lake trout and said - 3" Bill , he's better 
+gdec::          
+[2023-11-30 01:03:29, INFO, CNN_RNN-Experiment::train] Epoch: 1, Iteration: 500, train loss-> 122.603487
+orig::  agree with a child that a particular 
+gdec::    t   t  
+[2023-11-30 01:04:20, INFO, CNN_RNN-Experiment::train] Epoch: 1, Iteration: 600, train loss-> 121.495535
+orig::  " Yes . I travelled down from London 
+gdec::        
+[2023-11-30 01:04:47, INFO, CNN_RNN-Experiment::train] Epoch 1, Iteration 649: 115.323135
+[2023-11-30 01:04:47, INFO, CNN_RNN-Experiment::train] Saving net after 1 epochs
+[2023-11-30 01:05:39, INFO, CNN_RNN-Experiment::train] Epoch: 2, Iteration: 100, train loss-> 117.387843
+orig::  near me . " Yes , " I said . " It'll be here to- 
+gdec::   to     th  
+[2023-11-30 01:06:31, INFO, CNN_RNN-Experiment::train] Epoch: 2, Iteration: 200, train loss-> 113.937350
+orig::  to account for my manners , " he retorted . 
+gdec::    th o  th  
+[2023-11-30 01:07:23, INFO, CNN_RNN-Experiment::train] Epoch: 2, Iteration: 300, train loss-> 111.647223
+orig::  arts around them the diners were little 
+gdec::    th th  t t 
+[2023-11-30 01:08:15, INFO, CNN_RNN-Experiment::train] Epoch: 2, Iteration: 400, train loss-> 108.299491
+orig::  enlarged to become reservoirs or cisterns in 
+gdec::  e the de maae a ae a 
+[2023-11-30 01:09:07, INFO, CNN_RNN-Experiment::train] Epoch: 2, Iteration: 500, train loss-> 101.709539
+orig::  midst of plenty . Help will not be easily forth- 
+gdec::  t as pee tty at ot ho wote f 
+[2023-11-30 01:10:00, INFO, CNN_RNN-Experiment::train] Epoch: 2, Iteration: 600, train loss-> 100.784326
+orig::  who still believed that they had a monopoly of 
+gdec::  wate a caed tht thay hat a my of 
+[2023-11-30 01:10:25, INFO, CNN_RNN-Experiment::train] Epoch 2, Iteration 649: 93.635707
+[2023-11-30 01:10:25, INFO, CNN_RNN-Experiment::train] Saving net after 2 epochs
+[2023-11-30 01:11:17, INFO, CNN_RNN-Experiment::train] Epoch: 3, Iteration: 100, train loss-> 92.738218
+orig::  Sometimes they talked on the theme of " when we get married " , 
+gdec::  oe sy wd a ie woe of a ae ge med , 
+[2023-11-30 01:12:09, INFO, CNN_RNN-Experiment::train] Epoch: 3, Iteration: 200, train loss-> 92.918944
+orig::  for a hold-up as any , " he said , reining in 
+gdec::  pos a rlig is ag , he mot , roy o 
+[2023-11-30 01:13:01, INFO, CNN_RNN-Experiment::train] Epoch: 3, Iteration: 300, train loss-> 87.605960
+orig::  freedom from fear , fear of starvation in the 
+gdec::  teedon fon fees of soretion iin the 
+[2023-11-30 01:13:53, INFO, CNN_RNN-Experiment::train] Epoch: 3, Iteration: 400, train loss-> 85.498882
+orig::  and it came as an appalling surprise to 
+gdec::  ad i cae a a apellg rmpe to 
+[2023-11-30 01:14:46, INFO, CNN_RNN-Experiment::train] Epoch: 3, Iteration: 500, train loss-> 82.017703
+orig::  make a fool of yourself over someone 
+gdec::  mathe a faat of posef aver aomene 
+[2023-11-30 01:15:37, INFO, CNN_RNN-Experiment::train] Epoch: 3, Iteration: 600, train loss-> 77.374047
+orig::  to the bar . Doc and Lilyan were 
+gdec::  to the ba . dhe and tilpe wee 
+[2023-11-30 01:16:03, INFO, CNN_RNN-Experiment::train] Epoch 3, Iteration 649: 73.085988
+[2023-11-30 01:16:03, INFO, CNN_RNN-Experiment::train] Saving net after 3 epochs
+[2023-11-30 01:16:55, INFO, CNN_RNN-Experiment::train] Epoch: 4, Iteration: 100, train loss-> 75.537324
+orig::  word " SHAMIR " means guarded or preser- 
+gdec::  worod Srniis neon groroed o prerer . 
+[2023-11-30 01:17:47, INFO, CNN_RNN-Experiment::train] Epoch: 4, Iteration: 200, train loss-> 70.775524
+orig::  quoting a well-known question and 
+gdec::  oprofiny a well-beo oestioe aened 
+[2023-11-30 01:18:39, INFO, CNN_RNN-Experiment::train] Epoch: 4, Iteration: 300, train loss-> 69.040900
+orig::  and of Goja : it is vivid , highly coloured , sometimes 
+gdec::  and of bope i it is rid , higilg cboared , somatimas 
+[2023-11-30 01:19:30, INFO, CNN_RNN-Experiment::train] Epoch: 4, Iteration: 400, train loss-> 65.697599
+orig::  elsewhere . 
+gdec::  dlvewhere . 
+[2023-11-30 01:20:22, INFO, CNN_RNN-Experiment::train] Epoch: 4, Iteration: 500, train loss-> 65.563476
+orig::  For all that , as far as England is concerned , 
+gdec::  tor alf what , as Par as England i concemed , 
+[2023-11-30 01:21:14, INFO, CNN_RNN-Experiment::train] Epoch: 4, Iteration: 600, train loss-> 59.590635
+orig::  trifle too comfortable and humdrum . 
+gdec::  Arifle tos confortable aned humdran ., 
+[2023-11-30 01:21:39, INFO, CNN_RNN-Experiment::train] Epoch 4, Iteration 649: 63.282437
+[2023-11-30 01:21:39, INFO, CNN_RNN-Experiment::train] Saving net after 4 epochs
+[2023-11-30 01:22:31, INFO, CNN_RNN-Experiment::train] Epoch: 5, Iteration: 100, train loss-> 56.797257
+orig::  ful jobs in London and I could 
+gdec::  ful foss in London and Icould 
+[2023-11-30 01:23:23, INFO, CNN_RNN-Experiment::train] Epoch: 5, Iteration: 200, train loss-> 56.172165
+orig::  on land . Gaunt was compelled to give up his search for 
+gdec::  on land . bount wan compeled to give up his seacd for 
+[2023-11-30 01:24:15, INFO, CNN_RNN-Experiment::train] Epoch: 5, Iteration: 300, train loss-> 57.808422
+orig::  With something of a start I remembered the 
+gdec::  with somotly of a sert I remontered the 
+[2023-11-30 01:25:07, INFO, CNN_RNN-Experiment::train] Epoch: 5, Iteration: 400, train loss-> 54.287220
+orig::  then the primary essential to the success 
+gdec::  Hen the porimary Ceutil to the succes 
+[2023-11-30 01:25:58, INFO, CNN_RNN-Experiment::train] Epoch: 5, Iteration: 500, train loss-> 54.159280
+orig::  turned the tuning knob through all the 
+gdec::  turned the ting hnt throng h all the 
+[2023-11-30 01:26:50, INFO, CNN_RNN-Experiment::train] Epoch: 5, Iteration: 600, train loss-> 54.247214
+orig::  than mere converse has always been there . 
+gdec::  han sner conwerte far alnays been there . 
+[2023-11-30 01:27:15, INFO, CNN_RNN-Experiment::train] Epoch 5, Iteration 649: 50.131039
+[2023-11-30 01:27:15, INFO, CNN_RNN-Experiment::train] Saving net after 5 epochs
+[2023-11-30 01:28:07, INFO, CNN_RNN-Experiment::train] Epoch: 6, Iteration: 100, train loss-> 51.309123
+orig::  his surviving submarines a good deal harder than 
+gdec::  his servioing submarines a pood deal harden than 
+[2023-11-30 01:28:59, INFO, CNN_RNN-Experiment::train] Epoch: 6, Iteration: 200, train loss-> 48.936978
+orig::  words . ' I wonder you dared trust 
+gdec::  mrards . I Wonduryon daread frust 
+[2023-11-30 01:29:51, INFO, CNN_RNN-Experiment::train] Epoch: 6, Iteration: 300, train loss-> 50.183683
+orig::  In the days when most people were born , 
+gdec::  in the days when mot peopde were born , 
+[2023-11-30 01:30:43, INFO, CNN_RNN-Experiment::train] Epoch: 6, Iteration: 400, train loss-> 48.491539
+orig::  Then he would go back to Plato for a final spell of 
+gdec::  Then he would go bact to Tato for a firal spell of 
+[2023-11-30 01:31:34, INFO, CNN_RNN-Experiment::train] Epoch: 6, Iteration: 500, train loss-> 46.684037
+orig::  bomb . Should have been a V.C. 
+gdec::  Ceom . Choula haue breer a M.E. 
+[2023-11-30 01:32:26, INFO, CNN_RNN-Experiment::train] Epoch: 6, Iteration: 600, train loss-> 46.656060
+orig::  decided upon . Inside they sat down unbidden , while 
+gdec::  deaided upeon . Wside they sat dovn unbidden , wtile 
+[2023-11-30 01:32:51, INFO, CNN_RNN-Experiment::train] Epoch 6, Iteration 649: 46.384785
+[2023-11-30 01:32:51, INFO, CNN_RNN-Experiment::train] Saving net after 6 epochs
+[2023-11-30 01:33:43, INFO, CNN_RNN-Experiment::train] Epoch: 7, Iteration: 100, train loss-> 45.917915
+orig::  the people , and even a full Parliament was 
+gdec::  the peopte , and ever a tall Portiament was 
+[2023-11-30 01:34:34, INFO, CNN_RNN-Experiment::train] Epoch: 7, Iteration: 200, train loss-> 45.604018
+orig::  scripts of John and worked out the version 
+gdec::  scripl of lotn and worled ont the version 
+[2023-11-30 01:35:26, INFO, CNN_RNN-Experiment::train] Epoch: 7, Iteration: 300, train loss-> 45.693265
+orig::  penetrate beyond the minds of astronomers was of general 
+gdec::  perehank leprd the rionls of wtrerners was of gencal 
+[2023-11-30 01:36:17, INFO, CNN_RNN-Experiment::train] Epoch: 7, Iteration: 400, train loss-> 44.518906
+orig::  Gay read the rest of the letter then put 
+gdec::  Gay tead the rest of the lelter put 
+[2023-11-30 01:37:09, INFO, CNN_RNN-Experiment::train] Epoch: 7, Iteration: 500, train loss-> 44.435963
+orig::  money . All the while the police were casting about 
+gdec::  money . Hll the while the eolice were casting abast 
+[2023-11-30 01:38:00, INFO, CNN_RNN-Experiment::train] Epoch: 7, Iteration: 600, train loss-> 44.694743
+orig::  " That boy ! That damned fool boy ! What does he mean 
+gdec::  " That boy Thot danned fool boy What doer he mican 
+[2023-11-30 01:38:25, INFO, CNN_RNN-Experiment::train] Epoch 7, Iteration 649: 41.664048
+[2023-11-30 01:38:25, INFO, CNN_RNN-Experiment::train] Saving net after 7 epochs
+[2023-11-30 01:39:17, INFO, CNN_RNN-Experiment::train] Epoch: 8, Iteration: 100, train loss-> 41.615682
+orig::  The mind tires first and conveys the impression 
+gdec::  The mind hivs first and consers the imprssion 
+[2023-11-30 01:40:08, INFO, CNN_RNN-Experiment::train] Epoch: 8, Iteration: 200, train loss-> 41.587304
+orig::  salary raise , on the expectation of which they 
+gdec::  salary raise , on the expectation of which they 
+[2023-11-30 01:40:59, INFO, CNN_RNN-Experiment::train] Epoch: 8, Iteration: 300, train loss-> 42.592585
+orig::  solution emerged . There has always been something 
+gdec::  solution emerged , There has at wags been something 
+[2023-11-30 01:41:51, INFO, CNN_RNN-Experiment::train] Epoch: 8, Iteration: 400, train loss-> 43.371475
+orig::  an elusive foe , and , afraid to return home without 
+gdec::  an elasive foe , and , afraid to return home withoul 
+[2023-11-30 01:42:42, INFO, CNN_RNN-Experiment::train] Epoch: 8, Iteration: 500, train loss-> 38.634325
+orig::  eye with magnitude , began to understand the value of 
+gdec::  eye with magritude ; began to understand the walve of 
+[2023-11-30 01:43:33, INFO, CNN_RNN-Experiment::train] Epoch: 8, Iteration: 600, train loss-> 42.378906
+orig::  If only he would have con- 
+gdec::  If only he would hhave Con- 
+[2023-11-30 01:43:58, INFO, CNN_RNN-Experiment::train] Epoch 8, Iteration 649: 39.732356
+[2023-11-30 01:43:58, INFO, CNN_RNN-Experiment::train] Saving net after 8 epochs
+[2023-11-30 01:44:50, INFO, CNN_RNN-Experiment::train] Epoch: 9, Iteration: 100, train loss-> 40.357292
+orig::  preoccupied , and it seemed that the 
+gdec::  pre occapsied , and it seened that the 
+[2023-11-30 01:45:41, INFO, CNN_RNN-Experiment::train] Epoch: 9, Iteration: 200, train loss-> 38.174505
+orig::  ----------------------------------------------------- 
+gdec::  senence an ase 
+[2023-11-30 01:46:33, INFO, CNN_RNN-Experiment::train] Epoch: 9, Iteration: 300, train loss-> 37.253428
+orig::  little granddaughter of Charlie Grant . 
+gdec::  litle qnanoddaughten of toChanlio grant . 
+[2023-11-30 01:47:24, INFO, CNN_RNN-Experiment::train] Epoch: 9, Iteration: 400, train loss-> 38.427672
+orig::  far from our minds that at any moment we were 
+gdec::  par from aur minds toat at ary mament we werie 
+[2023-11-30 01:48:15, INFO, CNN_RNN-Experiment::train] Epoch: 9, Iteration: 500, train loss-> 39.141318
+orig::  put all our energies into the particular 
+gdec::  put oll our snsrgios into the portreutar 
+[2023-11-30 01:49:07, INFO, CNN_RNN-Experiment::train] Epoch: 9, Iteration: 600, train loss-> 39.613381
+orig::  " And I'm heartily sick of being constantly called 
+gdec::  " and I' m heardily sicdh of being ronstantly called 
+[2023-11-30 01:49:32, INFO, CNN_RNN-Experiment::train] Epoch 9, Iteration 649: 37.842191
+[2023-11-30 01:49:32, INFO, CNN_RNN-Experiment::train] Saving net after 9 epochs
+[2023-11-30 01:50:23, INFO, CNN_RNN-Experiment::train] Epoch: 10, Iteration: 100, train loss-> 36.814792
+orig::  got no whiskers so as you can see . Just you 
+gdec::  gut we wholes so as yon con see . Su yon 
+[2023-11-30 01:51:15, INFO, CNN_RNN-Experiment::train] Epoch: 10, Iteration: 200, train loss-> 37.027076
+orig::  forward . " Isn't it a glorious thing ! Long awaited 
+gdec::  forword . ' Bnt it a glorions thingl Longawoited 
+[2023-11-30 01:52:06, INFO, CNN_RNN-Experiment::train] Epoch: 10, Iteration: 300, train loss-> 36.821112
+orig::  in ensuring that the fry after hatching 
+gdec::  in enesusing that the fy efler hatding 
+[2023-11-30 01:52:57, INFO, CNN_RNN-Experiment::train] Epoch: 10, Iteration: 400, train loss-> 38.831849
+orig::  delight themselves in the abundance of Peace " ( Psalm 37 , 
+gdec::  delight theuselves in the obundance of frace( Rsatm St . 
+[2023-11-30 01:53:49, INFO, CNN_RNN-Experiment::train] Epoch: 10, Iteration: 500, train loss-> 37.858733
+orig::  likely , since , when she was examined by a local 
+gdec::  linedy , since , when she wuscomined bya locad 
+[2023-11-30 01:54:40, INFO, CNN_RNN-Experiment::train] Epoch: 10, Iteration: 600, train loss-> 37.764204
+orig::  derived little comfort from it . 
+gdec::  derived little comfort from it . 
+[2023-11-30 01:55:05, INFO, CNN_RNN-Experiment::train] Epoch 10, Iteration 649: 33.607931
+[2023-11-30 01:55:05, INFO, CNN_RNN-Experiment::train] Testing val set at epoch 10
+[2023-11-30 01:55:23, INFO, CNN_RNN-Experiment::train] CER at epoch 10: 0.093855
+[2023-11-30 01:55:23, INFO, CNN_RNN-Experiment::train] WER at epoch 10: 0.301915
+[2023-11-30 01:55:23, INFO, CNN_RNN-Experiment::train] Saving net after 10 epochs
+[2023-11-30 01:56:15, INFO, CNN_RNN-Experiment::train] Epoch: 11, Iteration: 100, train loss-> 36.342629
+orig::  purse . 
+gdec::  qurse . 
+[2023-11-30 01:57:06, INFO, CNN_RNN-Experiment::train] Epoch: 11, Iteration: 200, train loss-> 36.316944
+orig::  was quite alien to mediaeval thought - its 
+gdec::  was quite alien to madiaeral thought - its 
+[2023-11-30 01:57:57, INFO, CNN_RNN-Experiment::train] Epoch: 11, Iteration: 300, train loss-> 37.763841
+orig::  fascinated by the way he looked when you 
+gdec::  fascinated by the wary he looed when yon 
+[2023-11-30 01:58:49, INFO, CNN_RNN-Experiment::train] Epoch: 11, Iteration: 400, train loss-> 34.232924
+orig::  leading to the ridge . I followed . From the 
+gdec::  lencding' to the ricye . I Polloweds trom the 
+[2023-11-30 01:59:40, INFO, CNN_RNN-Experiment::train] Epoch: 11, Iteration: 500, train loss-> 34.585409
+orig::  the dishes of the country , and , instead of gorging the 
+gdec::  the disties of the country , andinstead of gorging the 
+[2023-11-30 02:00:31, INFO, CNN_RNN-Experiment::train] Epoch: 11, Iteration: 600, train loss-> 34.062658
+orig::  but she turned away , giving a little 
+gdec::  fou skr turued owary , gioing a fittee 
+[2023-11-30 02:00:56, INFO, CNN_RNN-Experiment::train] Epoch 11, Iteration 649: 32.341736
+[2023-11-30 02:00:56, INFO, CNN_RNN-Experiment::train] Saving net after 11 epochs
+[2023-11-30 02:01:48, INFO, CNN_RNN-Experiment::train] Epoch: 12, Iteration: 100, train loss-> 35.527025
+orig::  were going on in his bewildered brain . When 
+gdec::  were gaing on in his berildered brain . When 
+[2023-11-30 02:02:39, INFO, CNN_RNN-Experiment::train] Epoch: 12, Iteration: 200, train loss-> 36.549191
+orig::  The flyman with ear lobes and thumbs connected , 
+gdec::  The Elyman with ear lobes and thumbs connected , 
+[2023-11-30 02:03:31, INFO, CNN_RNN-Experiment::train] Epoch: 12, Iteration: 300, train loss-> 34.095263
+orig::  revived with designs suitable for contemporary 
+gdec::  revived with desighs suitable for contemporary 
+[2023-11-30 02:04:22, INFO, CNN_RNN-Experiment::train] Epoch: 12, Iteration: 400, train loss-> 34.740059
+orig::  fortitude , it now filled her with 
+gdec::  fokitude , it now filled her with 
+[2023-11-30 02:05:13, INFO, CNN_RNN-Experiment::train] Epoch: 12, Iteration: 500, train loss-> 35.440472
+orig::  We dip into both , at the Seder . And we want to understand 
+gdec::  We dip into both , at the Seder . And we want to undertand 
+[2023-11-30 02:06:05, INFO, CNN_RNN-Experiment::train] Epoch: 12, Iteration: 600, train loss-> 33.448324
+orig::  the divine Name is taken from the Mishnah . 
+gdec::  the disine Name is taten from the Mishtan . 
+[2023-11-30 02:06:30, INFO, CNN_RNN-Experiment::train] Epoch 12, Iteration 649: 33.217626
+[2023-11-30 02:06:30, INFO, CNN_RNN-Experiment::train] Saving net after 12 epochs
+[2023-11-30 02:07:21, INFO, CNN_RNN-Experiment::train] Epoch: 13, Iteration: 100, train loss-> 34.810431
+orig::  idyllic surroundings . " " How dare you say 
+gdec::  idyllic suroundings . " " " How dare you say 
+[2023-11-30 02:08:13, INFO, CNN_RNN-Experiment::train] Epoch: 13, Iteration: 200, train loss-> 34.827542
+orig::  sinister in the idea of tunnels . The building of 
+gdec::  sinister in the ibea of tunnels . The building of 
+[2023-11-30 02:09:04, INFO, CNN_RNN-Experiment::train] Epoch: 13, Iteration: 300, train loss-> 33.708026
+orig::  them without visionary power . 
+gdec::  them without visionary power . 
+[2023-11-30 02:09:55, INFO, CNN_RNN-Experiment::train] Epoch: 13, Iteration: 400, train loss-> 32.658074
+orig::  But this time there was a very interesting 
+gdec::  Bat this time there was a veny intenesting 
+[2023-11-30 02:10:46, INFO, CNN_RNN-Experiment::train] Epoch: 13, Iteration: 500, train loss-> 35.080429
+orig::  represents Remez ; ( 3 ) Dipping-in represents 
+gdec::  representr ; 6) Pieeing- in reeresents 
+[2023-11-30 02:11:38, INFO, CNN_RNN-Experiment::train] Epoch: 13, Iteration: 600, train loss-> 33.294849
+orig::  Edwards said courteously . " Secondly , we must 
+gdec::  Edwardy naid courteously . " Seondly , we must 
+[2023-11-30 02:12:03, INFO, CNN_RNN-Experiment::train] Epoch 13, Iteration 649: 31.879509
+[2023-11-30 02:12:03, INFO, CNN_RNN-Experiment::train] Saving net after 13 epochs
+[2023-11-30 02:12:54, INFO, CNN_RNN-Experiment::train] Epoch: 14, Iteration: 100, train loss-> 30.890165
+orig::  But all three were to the casual 
+gdec::  But all three were to the casual 
+[2023-11-30 02:13:46, INFO, CNN_RNN-Experiment::train] Epoch: 14, Iteration: 200, train loss-> 33.068571
+orig::  to the mouth of a great salmon river , has 
+gdec::  to the mouth of a great Dalmon riverhas 
+[2023-11-30 02:14:37, INFO, CNN_RNN-Experiment::train] Epoch: 14, Iteration: 300, train loss-> 32.082041
+orig::  dly decadence and absorption in debase- 
+gdec::  dly decadence and aloserption in debase- 
+[2023-11-30 02:15:28, INFO, CNN_RNN-Experiment::train] Epoch: 14, Iteration: 400, train loss-> 33.533733
+orig::  Christianity , common ground could be found . 
+gdec::  Cnistianity , comnercon grocend cocll be found . 
+[2023-11-30 02:16:20, INFO, CNN_RNN-Experiment::train] Epoch: 14, Iteration: 500, train loss-> 32.828247
+orig::  - rouse itself and , in reply to two or 
+gdec::  vouse itself d and , in reply to t wo on 
+[2023-11-30 02:17:11, INFO, CNN_RNN-Experiment::train] Epoch: 14, Iteration: 600, train loss-> 31.479014
+orig::  As it is , with so much of our life already 
+gdec::  to itis , with somucof ourlifealready 
+[2023-11-30 02:17:36, INFO, CNN_RNN-Experiment::train] Epoch 14, Iteration 649: 31.128518
+[2023-11-30 02:17:36, INFO, CNN_RNN-Experiment::train] Saving net after 14 epochs
+[2023-11-30 02:18:27, INFO, CNN_RNN-Experiment::train] Epoch: 15, Iteration: 100, train loss-> 33.771708
+orig::  and Fletcher that Byron would have wished his 
+gdec::  and tlether that Byrion would have wiked his 
+[2023-11-30 02:19:19, INFO, CNN_RNN-Experiment::train] Epoch: 15, Iteration: 200, train loss-> 31.361557
+orig::  your knowledge of all the affairs of the 
+gdec::  your Reowladge of oll te affairs of 1se 
+[2023-11-30 02:20:10, INFO, CNN_RNN-Experiment::train] Epoch: 15, Iteration: 300, train loss-> 32.376927
+orig::  problems . Hence says Rabbi Simeon ben 
+gdec::  problems . Hence says Rabbi simeon ben 
+[2023-11-30 02:21:01, INFO, CNN_RNN-Experiment::train] Epoch: 15, Iteration: 400, train loss-> 31.780380
+orig::  CO believed him . Courtenay played the part with a gawky , 
+gdec::  co believed wa . Caurtenay played the pot with a gouly 
+[2023-11-30 02:21:52, INFO, CNN_RNN-Experiment::train] Epoch: 15, Iteration: 500, train loss-> 29.998749
+orig::  to make the presentation , I run the damned 
+gdec::  to make the presentation , Irn the dauned 
+[2023-11-30 02:22:44, INFO, CNN_RNN-Experiment::train] Epoch: 15, Iteration: 600, train loss-> 30.827317
+orig::  World . You must help to lead our force . ' The long 
+gdec::  World . Yau must help to lead our force . ' The long 
+[2023-11-30 02:23:09, INFO, CNN_RNN-Experiment::train] Epoch 15, Iteration 649: 29.822923
+[2023-11-30 02:23:09, INFO, CNN_RNN-Experiment::train] Saving net after 15 epochs
+[2023-11-30 02:24:00, INFO, CNN_RNN-Experiment::train] Epoch: 16, Iteration: 100, train loss-> 31.422851
+orig::  less I was a Scot and wanting to get 
+gdec::  less I was a Scot and wanting to get 
+[2023-11-30 02:24:52, INFO, CNN_RNN-Experiment::train] Epoch: 16, Iteration: 200, train loss-> 31.336866
+orig::  dockyard and now that she's ready for sea he goes 
+gdec::  dloveyard and nor that she's ready for nea he goep 
+[2023-11-30 02:25:43, INFO, CNN_RNN-Experiment::train] Epoch: 16, Iteration: 300, train loss-> 30.275150
+orig::  and aesthetic as well as physical . There is the same finesse 
+gdec::  and aesthetic as well as physical . There is the same finesse 
+[2023-11-30 02:26:34, INFO, CNN_RNN-Experiment::train] Epoch: 16, Iteration: 400, train loss-> 30.540865
+orig::  each other . In their flight from the 4wiltmilt they had 
+gdec::  each other . In their flight from the Cwiltuilt they had 
+[2023-11-30 02:27:25, INFO, CNN_RNN-Experiment::train] Epoch: 16, Iteration: 500, train loss-> 30.996977
+orig::  Drift Effects . At East Anglia , for instance , 
+gdec::  Nrift Eltects . At last anglia for instance 
+[2023-11-30 02:28:17, INFO, CNN_RNN-Experiment::train] Epoch: 16, Iteration: 600, train loss-> 30.828134
+orig::  never been inside . Very remiss of 
+gdec::  mever been-imside . Nery semssof 
+[2023-11-30 02:28:42, INFO, CNN_RNN-Experiment::train] Epoch 16, Iteration 649: 33.858467
+[2023-11-30 02:28:42, INFO, CNN_RNN-Experiment::train] Saving net after 16 epochs
+[2023-11-30 02:29:33, INFO, CNN_RNN-Experiment::train] Epoch: 17, Iteration: 100, train loss-> 29.573104
+orig::  work for the movement , was later 
+gdec::  wok for the Wovelhehf , wn 1ntr 
+[2023-11-30 02:30:24, INFO, CNN_RNN-Experiment::train] Epoch: 17, Iteration: 200, train loss-> 31.085504
+orig::  before . Bacon was at work and Milton was 
+gdec::  before . Bacon was at woke and Milton was 
+[2023-11-30 02:31:15, INFO, CNN_RNN-Experiment::train] Epoch: 17, Iteration: 300, train loss-> 28.906064
+orig::  shall come to pass , if 1ye shall 1hearken 
+gdec::  shall coupe to pass , if Iye shall thearkey 
+[2023-11-30 02:32:07, INFO, CNN_RNN-Experiment::train] Epoch: 17, Iteration: 400, train loss-> 30.073782
+orig::  Coming around the great mass of the Chateau 
+gdec::  Coming around the great mars of the Chatean 
+[2023-11-30 02:32:58, INFO, CNN_RNN-Experiment::train] Epoch: 17, Iteration: 500, train loss-> 30.045823
+orig::  after Simone had left expect her to accept his 
+gdec::  affer simone had left expect her to accept his 
+[2023-11-30 02:33:49, INFO, CNN_RNN-Experiment::train] Epoch: 17, Iteration: 600, train loss-> 29.676227
+orig::  by Calvinists and Puritans , and the sentiment was 
+gdec::  by Calvanists and Puritans , and the sentiment was 
+[2023-11-30 02:34:14, INFO, CNN_RNN-Experiment::train] Epoch 17, Iteration 649: 26.993466
+[2023-11-30 02:34:14, INFO, CNN_RNN-Experiment::train] Saving net after 17 epochs
+[2023-11-30 02:35:05, INFO, CNN_RNN-Experiment::train] Epoch: 18, Iteration: 100, train loss-> 29.749362
+orig::  too . They're both here . " " I didn't know she was 
+gdec::  too . They'te both here . " " I dich't know she was 
+[2023-11-30 02:35:57, INFO, CNN_RNN-Experiment::train] Epoch: 18, Iteration: 200, train loss-> 30.427557
+orig::  gin ? " He turned to Seaweed - 
+gdec::  gin ? " He turned to Seasweed - 
+[2023-11-30 02:36:48, INFO, CNN_RNN-Experiment::train] Epoch: 18, Iteration: 300, train loss-> 28.838639
+orig::  She plays the possessive mother of a man whose hobby revolves 
+gdec::  she plays the possessive mather of a man whose hobty rerolves 
+[2023-11-30 02:37:39, INFO, CNN_RNN-Experiment::train] Epoch: 18, Iteration: 400, train loss-> 29.599784
+orig::  own veranda , that he had taken the liberty of 
+gdec::  oun veranda , that he had taken the liberty of 
+[2023-11-30 02:38:30, INFO, CNN_RNN-Experiment::train] Epoch: 18, Iteration: 500, train loss-> 29.913157
+orig::  we give him the publicity . ' The Honourable 
+gdec::  we qive hain the publicity . ' The teneurable 
+[2023-11-30 02:39:22, INFO, CNN_RNN-Experiment::train] Epoch: 18, Iteration: 600, train loss-> 29.027482
+orig::  impression that nothing nasty ever 
+gdec::  imprersions that nathing nasty ever 
+[2023-11-30 02:39:47, INFO, CNN_RNN-Experiment::train] Epoch 18, Iteration 649: 30.774171
+[2023-11-30 02:39:47, INFO, CNN_RNN-Experiment::train] Saving net after 18 epochs
+[2023-11-30 02:40:38, INFO, CNN_RNN-Experiment::train] Epoch: 19, Iteration: 100, train loss-> 29.212768
+orig::  over the binding , or the whole codex rebound . 
+gdec::  over the binding , or the whole codes rebound . 
+[2023-11-30 02:41:29, INFO, CNN_RNN-Experiment::train] Epoch: 19, Iteration: 200, train loss-> 29.550692
+orig::  looked down at the fast-disappearing 
+gdec::  loshed down at the fart-disappearing 
+[2023-11-30 02:42:20, INFO, CNN_RNN-Experiment::train] Epoch: 19, Iteration: 300, train loss-> 27.681245
+orig::  had a great contempt for animal food , believing that 
+gdec::  hnd a great contempt for animal food , beliving that 
+[2023-11-30 02:43:12, INFO, CNN_RNN-Experiment::train] Epoch: 19, Iteration: 400, train loss-> 29.984193
+orig::  to make the presentation , I run the damned 
+gdec::  to make the presertation , Irus the domned 
+[2023-11-30 02:44:03, INFO, CNN_RNN-Experiment::train] Epoch: 19, Iteration: 500, train loss-> 29.290309
+orig::  orchards to the vital question of water 
+gdec::  onclands to the vital quostion of cscctor 
+[2023-11-30 02:44:54, INFO, CNN_RNN-Experiment::train] Epoch: 19, Iteration: 600, train loss-> 29.885913
+orig::  to the table , all of them making a fuss of her and at once 
+gdec::  The table , all of them making a fuss of has and at onca she 
+[2023-11-30 02:45:19, INFO, CNN_RNN-Experiment::train] Epoch 19, Iteration 649: 28.979682
+[2023-11-30 02:45:19, INFO, CNN_RNN-Experiment::train] Saving net after 19 epochs
+[2023-11-30 02:46:11, INFO, CNN_RNN-Experiment::train] Epoch: 20, Iteration: 100, train loss-> 29.999773
+orig::  to the European Common Market . 
+gdec::  to the European Common Market . 
+[2023-11-30 02:47:02, INFO, CNN_RNN-Experiment::train] Epoch: 20, Iteration: 200, train loss-> 30.962825
+orig::  Mr. Hayball from the back seat . 
+gdec::  Mrr. Hayball frrom the back seat . 
+[2023-11-30 02:47:53, INFO, CNN_RNN-Experiment::train] Epoch: 20, Iteration: 300, train loss-> 32.236846
+orig::  Arterial pulsation disappears with cessation of 
+gdec::  Arterial pulsation disappears with cessation of 
+[2023-11-30 02:48:45, INFO, CNN_RNN-Experiment::train] Epoch: 20, Iteration: 400, train loss-> 27.288581
+orig::  a further seven years before even a ghost of a 
+gdec::  a further seven years betore even a ghost of a 
+[2023-11-30 02:49:36, INFO, CNN_RNN-Experiment::train] Epoch: 20, Iteration: 500, train loss-> 28.171992
+orig::  the yourself is thy greatest enemy , the self- 
+gdec::  the yaurself in thy greatest epremy , the self- 
+[2023-11-30 02:50:27, INFO, CNN_RNN-Experiment::train] Epoch: 20, Iteration: 600, train loss-> 28.866589
+orig::  a meal in those earliest dangerous days was an 
+gdec::  a meal in those earhiest dangrous days was an 
+[2023-11-30 02:50:52, INFO, CNN_RNN-Experiment::train] Epoch 20, Iteration 649: 28.122213
+[2023-11-30 02:50:52, INFO, CNN_RNN-Experiment::train] Testing val set at epoch 20
+[2023-11-30 02:51:10, INFO, CNN_RNN-Experiment::train] CER at epoch 20: 0.063284
+[2023-11-30 02:51:10, INFO, CNN_RNN-Experiment::train] WER at epoch 20: 0.221480
+[2023-11-30 02:52:01, INFO, CNN_RNN-Experiment::train] Epoch: 21, Iteration: 100, train loss-> 26.441635
+orig::  houseman , " it wasn't Nigel you saw , 
+gdec::  houseman , " it wasn't Yigel you nowr , 
+[2023-11-30 02:52:52, INFO, CNN_RNN-Experiment::train] Epoch: 21, Iteration: 200, train loss-> 28.591190
+orig::  drop the rank - such a mouthful ! " " You're 
+gdec::  drop the rank - such a mouthful ! " " You're 
+[2023-11-30 02:53:44, INFO, CNN_RNN-Experiment::train] Epoch: 21, Iteration: 300, train loss-> 27.726416
+orig::  made this century is the way in which illness 
+gdec::  mode this century is the woy in which illnsrs 
+[2023-11-30 02:54:35, INFO, CNN_RNN-Experiment::train] Epoch: 21, Iteration: 400, train loss-> 26.494091
+orig::  He told her nonchalantly , as he led the way to his 
+gdec::  He told her nonchalantly , as he led the way to his 
+[2023-11-30 02:55:26, INFO, CNN_RNN-Experiment::train] Epoch: 21, Iteration: 500, train loss-> 26.080627
+orig::  by special helicopter from the Horse Guards 
+gdec::  by special helicopter from the Hore Guards 
+[2023-11-30 02:56:17, INFO, CNN_RNN-Experiment::train] Epoch: 21, Iteration: 600, train loss-> 29.862459
+orig::  a moment ... ' 
+gdec::  a moment ... ' 
+[2023-11-30 02:56:42, INFO, CNN_RNN-Experiment::train] Epoch 21, Iteration 649: 24.893925
+[2023-11-30 02:56:42, INFO, CNN_RNN-Experiment::train] Saving net after 21 epochs
+[2023-11-30 02:57:34, INFO, CNN_RNN-Experiment::train] Epoch: 22, Iteration: 100, train loss-> 27.506480
+orig::  As he swung her on to the floor Gay saw Gavin 
+gdec::  As he swang her on to the foor Gay saw lavin 
+[2023-11-30 02:58:25, INFO, CNN_RNN-Experiment::train] Epoch: 22, Iteration: 200, train loss-> 27.739539
+orig::  Then they stop swimming and are caught . In 
+gdec::  Then they stop suisoirry and are cougtot . To 
+[2023-11-30 02:59:16, INFO, CNN_RNN-Experiment::train] Epoch: 22, Iteration: 300, train loss-> 27.166869
+orig::  The truth is that good food offers a 
+gdec::  The truth is thut goud fuod offors a 
+[2023-11-30 03:00:07, INFO, CNN_RNN-Experiment::train] Epoch: 22, Iteration: 400, train loss-> 27.684306
+orig::  are slaves to it . Only an outcast is free . Because 
+gdec::  are slaves to it . Only an outcast is free . Because 
+[2023-11-30 03:00:58, INFO, CNN_RNN-Experiment::train] Epoch: 22, Iteration: 500, train loss-> 30.132036
+orig::  to put beautiful things into a beautiful church 
+gdec::  to put beautigul things into a beautiful church 
+[2023-11-30 03:01:50, INFO, CNN_RNN-Experiment::train] Epoch: 22, Iteration: 600, train loss-> 27.486249
+orig::  you are satisfied . ' 
+gdec::  you are ratisfied . 
+[2023-11-30 03:02:15, INFO, CNN_RNN-Experiment::train] Epoch 22, Iteration 649: 28.090761
+[2023-11-30 03:03:06, INFO, CNN_RNN-Experiment::train] Epoch: 23, Iteration: 100, train loss-> 29.104448
+orig::  felt that part of her was leaving 
+gdec::  felt that part of her was leaving 
+[2023-11-30 03:03:57, INFO, CNN_RNN-Experiment::train] Epoch: 23, Iteration: 200, train loss-> 27.577347
+orig::  foot to Dan's house . Dan came 
+gdec::  foot to Danis house . Dan came 
+[2023-11-30 03:04:48, INFO, CNN_RNN-Experiment::train] Epoch: 23, Iteration: 300, train loss-> 26.549292
+orig::  if she made a list , followed a routine of work 
+gdec::  if shemode a list , follcaed a routine of work 
+[2023-11-30 03:05:40, INFO, CNN_RNN-Experiment::train] Epoch: 23, Iteration: 400, train loss-> 27.034841
+orig::  salary raise , on the expectation of which they 
+gdec::  salary raise , on the expectation of which they 
+[2023-11-30 03:06:31, INFO, CNN_RNN-Experiment::train] Epoch: 23, Iteration: 500, train loss-> 27.620683
+orig::  Somewhat embarrassing , what ? " " How can the 
+gdec::  Gomewhat embarrassivg , what ! " " " Hou can the 
+[2023-11-30 03:07:22, INFO, CNN_RNN-Experiment::train] Epoch: 23, Iteration: 600, train loss-> 28.562565
+orig::  This indicated how ephemeral in the Church had 
+gdec::  This indicated how ephemeral in the Church had 
+[2023-11-30 03:07:47, INFO, CNN_RNN-Experiment::train] Epoch 23, Iteration 649: 27.858522
+[2023-11-30 03:08:39, INFO, CNN_RNN-Experiment::train] Epoch: 24, Iteration: 100, train loss-> 26.388589
+orig::  are drifted back into the normal home 
+gdec::  are slniffed back into the normal hame 
+[2023-11-30 03:09:30, INFO, CNN_RNN-Experiment::train] Epoch: 24, Iteration: 200, train loss-> 26.523373
+orig::  gesture of hopelessness , knowing that her 
+gdec::  gestuse of hopeless uess , lnowing teafler 
+[2023-11-30 03:10:21, INFO, CNN_RNN-Experiment::train] Epoch: 24, Iteration: 300, train loss-> 24.893715
+orig::  She plays the possessive mother of a man whose hobby revolves 
+gdec::  she plays the posessive mather of a may whose hobty revolves 
+[2023-11-30 03:11:12, INFO, CNN_RNN-Experiment::train] Epoch: 24, Iteration: 400, train loss-> 26.139750
+orig::  by the Gemara in support of R. Joshua b. 
+gdec::  by the Gemara in support of R. Joshua b . 
+[2023-11-30 03:12:04, INFO, CNN_RNN-Experiment::train] Epoch: 24, Iteration: 500, train loss-> 28.108027
+orig::  vely simple obligations of the feudal pyramid 
+gdec::  rely simple obligations of the feudal pyramid 
+[2023-11-30 03:12:55, INFO, CNN_RNN-Experiment::train] Epoch: 24, Iteration: 600, train loss-> 26.127413
+orig::  incumbency I was asked if I would start 
+gdec::  incumbency I was asked if I would slast 
+[2023-11-30 03:13:20, INFO, CNN_RNN-Experiment::train] Epoch 24, Iteration 649: 23.658534
+[2023-11-30 03:13:20, INFO, CNN_RNN-Experiment::train] Saving net after 24 epochs
+[2023-11-30 03:14:11, INFO, CNN_RNN-Experiment::train] Epoch: 25, Iteration: 100, train loss-> 28.354451
+orig::  no doubt that the woman had been the victim 
+gdec::  no doubt that the noman had been the victim 
+[2023-11-30 03:15:03, INFO, CNN_RNN-Experiment::train] Epoch: 25, Iteration: 200, train loss-> 27.498205
+orig::  When ' his ' war did not bring victory and 
+gdec::  When ' his ' wor did not bring victory and 
+[2023-11-30 03:15:54, INFO, CNN_RNN-Experiment::train] Epoch: 25, Iteration: 300, train loss-> 24.915515
+orig::  of mind ensues . ( b ) Concentrate on one 
+gdec::  of mind insues . IAI Conuntrate on one 
+[2023-11-30 03:16:45, INFO, CNN_RNN-Experiment::train] Epoch: 25, Iteration: 400, train loss-> 26.560208
+orig::  if the cause of our pain is too deep seated , 
+gdec::  if the couse of beer pain is too deep sealed , 
+[2023-11-30 03:17:36, INFO, CNN_RNN-Experiment::train] Epoch: 25, Iteration: 500, train loss-> 25.065957
+orig::  shook his head . " All paid for by His Lordship , " 
+gdec::  shooke his head . " Ael paid for by tis Lordship . " 
+[2023-11-30 03:18:27, INFO, CNN_RNN-Experiment::train] Epoch: 25, Iteration: 600, train loss-> 28.436947
+orig::  learn that he could not treat her 
+gdec::  learn that he could not treat hey 
+[2023-11-30 03:18:53, INFO, CNN_RNN-Experiment::train] Epoch 25, Iteration 649: 26.667713
+[2023-11-30 03:19:44, INFO, CNN_RNN-Experiment::train] Epoch: 26, Iteration: 100, train loss-> 24.726019
+orig::  to experience such catastrophes as the loss of a submarine , 
+gdec::  to cxperience such catastrophes as the loss of a submarine , 
+[2023-11-30 03:20:35, INFO, CNN_RNN-Experiment::train] Epoch: 26, Iteration: 200, train loss-> 24.866583
+orig::  crescent-shaped breakfast roll created by a pastry cook to 
+gdec::  crescent-spapod breakfast moll areated by a pastry coot to 
+[2023-11-30 03:21:26, INFO, CNN_RNN-Experiment::train] Epoch: 26, Iteration: 300, train loss-> 25.145895
+orig::  and of Goja : it is vivid , highly coloured , sometimes 
+gdec::  and of Boga : it is vivid , highly coloured , sometioes 
+[2023-11-30 03:22:17, INFO, CNN_RNN-Experiment::train] Epoch: 26, Iteration: 400, train loss-> 26.340647
+orig::  likely , since , when she was examined by a local 
+gdec::  linely , since , when she was Gamined b y a local 
+[2023-11-30 03:23:09, INFO, CNN_RNN-Experiment::train] Epoch: 26, Iteration: 500, train loss-> 26.065063
+orig::  to other day , my lord . A being of whom 
+gdec::  to #other day , my lard . A being of wham 
+[2023-11-30 03:24:00, INFO, CNN_RNN-Experiment::train] Epoch: 26, Iteration: 600, train loss-> 25.023544
+orig::  broth , or brew , A hotch-potch of all 
+gdec::  broth , or brew , A hotch-potch of all 
+[2023-11-30 03:24:25, INFO, CNN_RNN-Experiment::train] Epoch 26, Iteration 649: 26.822163
+[2023-11-30 03:24:25, INFO, CNN_RNN-Experiment::train] Saving net after 26 epochs
+[2023-11-30 03:25:16, INFO, CNN_RNN-Experiment::train] Epoch: 27, Iteration: 100, train loss-> 24.984184
+orig::  in the first part of the Shmah , we have first " and 
+gdec::  in the first part of the shmrah , we have first " and 
+[2023-11-30 03:26:07, INFO, CNN_RNN-Experiment::train] Epoch: 27, Iteration: 200, train loss-> 26.952086
+orig::  to make you understand just what happened 
+gdec::  to make you understard jinst wat happered 
+[2023-11-30 03:26:59, INFO, CNN_RNN-Experiment::train] Epoch: 27, Iteration: 300, train loss-> 27.041356
+orig::  folded it , and glanced idly out of the 
+gdec::  folded it , and glanced idly out of the 
+[2023-11-30 03:27:50, INFO, CNN_RNN-Experiment::train] Epoch: 27, Iteration: 400, train loss-> 23.888158
+orig::  Alf Barton , who in 1911 was presented 
+gdec::  aly Duton " who in 19ll un presnted 
+[2023-11-30 03:28:41, INFO, CNN_RNN-Experiment::train] Epoch: 27, Iteration: 500, train loss-> 26.586128
+orig::  went in search of a drink . The lower bar was 
+gdec::  went in search of a drink . The lower bar was 
+[2023-11-30 03:29:32, INFO, CNN_RNN-Experiment::train] Epoch: 27, Iteration: 600, train loss-> 27.067669
+orig::  11 ) . That gives us freedom from want . 
+gdec::  i t . Chat gives cs freedom from wout . 
+[2023-11-30 03:29:57, INFO, CNN_RNN-Experiment::train] Epoch 27, Iteration 649: 24.057826
+[2023-11-30 03:30:48, INFO, CNN_RNN-Experiment::train] Epoch: 28, Iteration: 100, train loss-> 24.144984
+orig::  opinion of Bassius that at their desserts the 
+gdec::  opinion of Dassius that at their desserts the 
+[2023-11-30 03:31:40, INFO, CNN_RNN-Experiment::train] Epoch: 28, Iteration: 200, train loss-> 24.197901
+orig::  a hand and grasped hers . 
+gdec::  a hand and grasped her . 
+[2023-11-30 03:32:31, INFO, CNN_RNN-Experiment::train] Epoch: 28, Iteration: 300, train loss-> 24.874852
+orig::  waiting to be transported to Dinas . And 
+gdec::  avaiting to be transporked to Dinas . And 
+[2023-11-30 03:33:22, INFO, CNN_RNN-Experiment::train] Epoch: 28, Iteration: 400, train loss-> 25.765662
+orig::  mining camp , " he said abruptly . He wheeled 
+gdec::  miving camp , " he said abpuptly . He wheeled 
+[2023-11-30 03:34:13, INFO, CNN_RNN-Experiment::train] Epoch: 28, Iteration: 500, train loss-> 25.299260
+orig::  obvious that she did not fail to appreciate the 
+gdec::  ohvious that she did not fail to appreciate the 
+[2023-11-30 03:35:04, INFO, CNN_RNN-Experiment::train] Epoch: 28, Iteration: 600, train loss-> 26.541434
+orig::  tell George to bring in the 6carte du jour . " 
+gdec::  tell Geage to bring in the bcarte de jour . " 
+[2023-11-30 03:35:29, INFO, CNN_RNN-Experiment::train] Epoch 28, Iteration 649: 25.411873
+[2023-11-30 03:35:29, INFO, CNN_RNN-Experiment::train] Saving net after 28 epochs
+[2023-11-30 03:36:21, INFO, CNN_RNN-Experiment::train] Epoch: 29, Iteration: 100, train loss-> 23.290087
+orig::  moment had charge of the mine ; the mine collapsed 
+gdec::  noment had charge of a mine ; the mine collapsed 
+[2023-11-30 03:37:12, INFO, CNN_RNN-Experiment::train] Epoch: 29, Iteration: 200, train loss-> 24.596411
+orig::  texts to support the thesis of R. Joshua b. Levi . 
+gdec::  texts to support the thesis of Mr. Joshuab Lebi . 
+[2023-11-30 03:38:03, INFO, CNN_RNN-Experiment::train] Epoch: 29, Iteration: 300, train loss-> 24.868270
+orig::  But all three were to the casual 
+gdec::  But all three were to the casual 
+[2023-11-30 03:38:55, INFO, CNN_RNN-Experiment::train] Epoch: 29, Iteration: 400, train loss-> 25.108209
+orig::  said the first thing that came into her head . 
+gdec::  said the first thing that came into her head . 
+[2023-11-30 03:39:46, INFO, CNN_RNN-Experiment::train] Epoch: 29, Iteration: 500, train loss-> 24.700107
+orig::  said John , " but you can pay for my drinks 
+gdec::  said John , " but you can pay for my dinks 
+[2023-11-30 03:40:37, INFO, CNN_RNN-Experiment::train] Epoch: 29, Iteration: 600, train loss-> 23.994169
+orig::  of despair Gay knew that of course 
+gdec::  of deopair gay knew that of course 
+[2023-11-30 03:41:02, INFO, CNN_RNN-Experiment::train] Epoch 29, Iteration 649: 24.374080
+[2023-11-30 03:41:02, INFO, CNN_RNN-Experiment::train] Saving net after 29 epochs
+[2023-11-30 03:41:53, INFO, CNN_RNN-Experiment::train] Epoch: 30, Iteration: 100, train loss-> 23.317491
+orig::  to the table , all of them making a fuss of her and at once 
+gdec::  The table , all of them making a fuses of has and at onca She 
+[2023-11-30 03:42:45, INFO, CNN_RNN-Experiment::train] Epoch: 30, Iteration: 200, train loss-> 23.950085
+orig::  which it engenders . But I am not arguing 
+gdec::  which it engendess . Butlamnotarguing 
+[2023-11-30 03:43:36, INFO, CNN_RNN-Experiment::train] Epoch: 30, Iteration: 300, train loss-> 24.858584
+orig::  allowances , but soon , alas ! , as casualties began and increased 
+gdec::  allowances fut soon , atas ! , as Casuatties beaan and incteased 
+[2023-11-30 03:44:27, INFO, CNN_RNN-Experiment::train] Epoch: 30, Iteration: 400, train loss-> 25.602537
+orig::  of responsible for her . " " Of course , " he said , 
+gdec::  of resporishle for ner . " " Of couse , " he said , 
+[2023-11-30 03:45:18, INFO, CNN_RNN-Experiment::train] Epoch: 30, Iteration: 500, train loss-> 25.885853
+orig::  few moments later the yawl was upside 
+gdec::  few moments later the yaull was upside 
+[2023-11-30 03:46:10, INFO, CNN_RNN-Experiment::train] Epoch: 30, Iteration: 600, train loss-> 24.282089
+orig::  They looked at him , sullen . His heart 
+gdec::  They looked athimm , nullen . Tis heart 
+[2023-11-30 03:46:35, INFO, CNN_RNN-Experiment::train] Epoch 30, Iteration 649: 23.358074
+[2023-11-30 03:46:35, INFO, CNN_RNN-Experiment::train] Testing val set at epoch 30
+[2023-11-30 03:46:52, INFO, CNN_RNN-Experiment::train] CER at epoch 30: 0.056094
+[2023-11-30 03:46:52, INFO, CNN_RNN-Experiment::train] WER at epoch 30: 0.195650
+[2023-11-30 03:47:43, INFO, CNN_RNN-Experiment::train] Epoch: 31, Iteration: 100, train loss-> 24.644405
+orig::  give me a ring at this number and I'll 
+gdec::  give me a viny at this number and I 'll 
+[2023-11-30 03:48:35, INFO, CNN_RNN-Experiment::train] Epoch: 31, Iteration: 200, train loss-> 27.034420
+orig::  an attempt to show my lady-love that I 
+gdec::  an allempt to stow mny ldy-love that I 
+[2023-11-30 03:49:26, INFO, CNN_RNN-Experiment::train] Epoch: 31, Iteration: 300, train loss-> 24.837912
+orig::  all the elements of fear can arise suddenly , 
+gdec::  all the elements of fear can arise sllenly , 
+[2023-11-30 03:50:17, INFO, CNN_RNN-Experiment::train] Epoch: 31, Iteration: 400, train loss-> 23.303698
+orig::  Drift Effects . At East Anglia , for instance , 
+gdec::  Wrift eltects . At East Anglig for inntance 
+[2023-11-30 03:51:08, INFO, CNN_RNN-Experiment::train] Epoch: 31, Iteration: 500, train loss-> 24.071002
+orig::  involving careful and patient treatment . 
+gdec::  involving careferl and patient freadment . 
+[2023-11-30 03:51:59, INFO, CNN_RNN-Experiment::train] Epoch: 31, Iteration: 600, train loss-> 24.745925
+orig::  by special helicopter from the Horse Guards 
+gdec::  by special helicopter from the " Horse quards 
+[2023-11-30 03:52:24, INFO, CNN_RNN-Experiment::train] Epoch 31, Iteration 649: 22.292337
+[2023-11-30 03:53:16, INFO, CNN_RNN-Experiment::train] Epoch: 32, Iteration: 100, train loss-> 25.853899
+orig::  Ward 10 . 
+gdec::  ward 10 . 
+[2023-11-30 03:54:07, INFO, CNN_RNN-Experiment::train] Epoch: 32, Iteration: 200, train loss-> 24.803334
+orig::  of law . 
+gdec::  of law . 
+[2023-11-30 03:54:58, INFO, CNN_RNN-Experiment::train] Epoch: 32, Iteration: 300, train loss-> 23.907954
+orig::  whether paragraphed or not , would be laid out in 
+gdec::  Whether paragrophed or mot , would be laid Out in 
+[2023-11-30 03:55:49, INFO, CNN_RNN-Experiment::train] Epoch: 32, Iteration: 400, train loss-> 23.805071
+orig::  His voice was like his black and pin-stripe , 
+gdec::  His voice was lile Sis Sleal and pin-shipe , 
+[2023-11-30 03:56:41, INFO, CNN_RNN-Experiment::train] Epoch: 32, Iteration: 500, train loss-> 23.662200
+orig::  symbolises the bitterness that is hurled against us . 
+gdec::  syubolises the bittemness that is hurled against us . 
+[2023-11-30 03:57:32, INFO, CNN_RNN-Experiment::train] Epoch: 32, Iteration: 600, train loss-> 25.863671
+orig::  to learn . Education is always the most important task . 
+gdec::  to learn . Education is always the most iportant task . 
+[2023-11-30 03:57:57, INFO, CNN_RNN-Experiment::train] Epoch 32, Iteration 649: 22.572880
+Early stopping at epoch 32

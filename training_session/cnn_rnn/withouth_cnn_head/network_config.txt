@@ -1,0 +1,18 @@
+k = 1
+cnn_cfg = [(2, 64), 'M', (4, 128), 'M', (4, 256)]
+
+head_cfg = (256, 3)  # (hidden , num_layers)
+
+head_type = 'rnn'
+
+flattening = 'maxpool'
+fixed_size = (4 * 32,  4*  256)
+#flattening='concat'
+
+
+# Spatial Transformer Network
+stn = False
+
+max_epochs = 140
+batch_size = 10
+early_stopping = 3
